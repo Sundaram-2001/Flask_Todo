@@ -38,3 +38,6 @@ python app.py
 - POST /addTask - Create a new task
 - GET /allTasks - Get all tasks
 - GET /task/<task_id> - Get task by ID 
+- PUT     /task/<task_id> - update a particular task
+- DELETE  /deleteTask/<task_id> - delete a particular task
+  
