@@ -6,8 +6,8 @@ A Flask-based REST API for managing tasks with MongoDB.
 
 1. Clone the repository
 ```bash
-git clone <your-repository-url>
-cd <project-directory>
+git clone https://github.com/Sundaram-2001/Flask_Todo.git
+cd Flask_Todo
 ```
 
 2. Create and activate virtual environment
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 4. Create .env file and add your MongoDB URL
 ```bash
-mongodb_url=your_mongodb_connection_string
+touch .env
 ```
 
 5. Run the application
